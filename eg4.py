@@ -13,7 +13,7 @@ while True:
         d=eg.passwordbox(msg="输入你的密码",title="帐号登录")
         if a == c:
             e=True
-        else:2
+        else:
             e=False
         if b==d:
             f=True

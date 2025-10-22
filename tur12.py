@@ -13,7 +13,7 @@ while True:
         print("Error:"+str(fg))
         sys.exit()
     for i in range(b):
-        v.forward(1)
+        v.forward(2)
         v.left(360/b)
     v.penup()
     c+=100

@@ -13,17 +13,17 @@ def pud(x,y):
 a.pencolor("#000000")
 a.pensize(1)
 pud(-170,0)
-sz=1
+sz=3
 for i in range(90):
     a.forward(3)
     a.left(1)
+    a.pensize(sz)
     sz+=0.2
-    a.pensize(sz)
 for i in range(90):
     a.forward(3)
     a.left(1)
-    sz-=0.2
     a.pensize(sz)
+    sz-=0.2
 a.pencolor("#FFFFFF")
 pud(-140,100)
 a.pensize(45)

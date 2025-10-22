@@ -1,5 +1,5 @@
 import turtle as t
 
 a=t.Pen()
-a.write("TYUUHGGJHTDRDFGFRSRFGUB!@#$%^&*(@#$%^&*@#$%^&*#$%^&*GYHUJTRERTYT%R$E$RTY",font=("宋体",8,"bold"))
+a.write("qwertyuiopasdfghjklzxcvbnmQWERTYUIPASDFGHJKLZXCVBNM",font=("Microsoft Yahei UI Light",15,"bold"))
 t.done()
